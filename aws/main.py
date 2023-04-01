@@ -61,8 +61,7 @@ class MatchScraperStack(Stack):
 			]
 		))
 
-		Rule(self, 'twice-daily', schedule=Schedule.cron(hour='1,18', minute='0')) \
-			.add_target(scrape_current_match_ids)
+		Rule(self, 'once-daily', schedule=Schedule.cron(hour='0', minute='0')).add_target(scrape_current_match_ids)
 
 		scrape_match = create_function(
 			self,
