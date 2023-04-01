@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5d7950d8b2d5b2e71b03351daba05fdeb219874df0012c8af3f147e8b3f527e7"
+            "sha256": "93986b985d3b7e43ffe225ae7fc1209a12d2d0237027f84b0cf49ba5a741d5d8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -34,19 +34,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:536d9e7a074f4f16cc87b426f91b3079edd5c6927541a04f7e3fa28c53293532",
-                "sha256:d9fd57d6e98fd919cdbd613428f685e05b48c71477fda1aa7fbf51867262c7d1"
+                "sha256:308c5a8293d9b76e74921f4d945be19cc467b92e5f128df1db76e31c71345bb3",
+                "sha256:bcd09f16bdf3d71ab7d0fab20e97242f09c63f4cea0943329521ab35a950f900"
             ],
             "index": "pypi",
-            "version": "==1.26.99"
+            "version": "==1.26.104"
         },
         "botocore": {
             "hashes": [
-                "sha256:15c205e4578253da1e8cc247b9d4755042f5f873f68ac6e5fed48f4bd6f008c6",
-                "sha256:d1770b4fe5531870af7a81e9897b2092d2f89e4ba8cb7abbbaf3ab952f6b8a6f"
+                "sha256:7e7a01cef10b1daa9cb01ec25a15e831e7359fc43d1b591359710f203c3620a8",
+                "sha256:932bfbf580a2ae53f471df4bfbebce531985ee27468cf7c37d7ccfb3cf8bc9e4"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.99"
+            "version": "==1.29.104"
         },
         "certifi": {
             "hashes": [
@@ -387,19 +387,19 @@
         },
         "aws-cdk-lib": {
             "hashes": [
-                "sha256:1eff41bf88d12653538bc0119725d6e64f74a02ca9e79c03e893984543363c95",
-                "sha256:cd74cdbc3b2a544a0979b73b4b875f541db886b61f933da0420a542d9333fade"
+                "sha256:0d7001b0f507dcd435c6c20688e61d6c45c297e54bae2bf36256e10520668a8a",
+                "sha256:a0aeaf0e0d0dcc36fe52a1df09708028a8f71f54116bc3f2afec546b0d90c256"
             ],
             "index": "pypi",
-            "version": "==2.70.0"
+            "version": "==2.72.1"
         },
         "aws-cdk.asset-awscli-v1": {
             "hashes": [
-                "sha256:4cc19dc6725a74d72ad2c40760b323380dc39796b6dc4ca3f7d7b8de40011a7f",
-                "sha256:5492c8d52cce54fd1cc201cb9abb1a2859b773f7dbd00a64a2b924e5d5e3921c"
+                "sha256:d2aeabcbc39d18f0263efd0f2d1875ba760ec8f8bd594f22cdcec96bd676f793",
+                "sha256:e7285b1cfd3ef8eb227d4f9494be417b11348ba137cd13ff7471b8c910132119"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==2.2.117"
+            "version": "==2.2.125"
         },
         "aws-cdk.asset-kubectl-v20": {
             "hashes": [
@@ -411,11 +411,27 @@
         },
         "aws-cdk.asset-node-proxy-agent-v5": {
             "hashes": [
-                "sha256:1fa0501d7ebc3eda8430ccafe062d30fedc7a5217bfe9a4a045f14eaf8ecbc34",
-                "sha256:4c4b056325b6077251fa74abc1aa27df55e466bd501b0d4048b8ae2e242d2732"
+                "sha256:1bff3f28be973a000dc8849c8980cac8859c4dd96389c97d26cdae92e4c30913",
+                "sha256:94d82592a3d50951f83bece7c7b19b89c26eb9a6800371399141d816882252c1"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==2.0.95"
+            "version": "==2.0.102"
+        },
+        "boto3": {
+            "hashes": [
+                "sha256:308c5a8293d9b76e74921f4d945be19cc467b92e5f128df1db76e31c71345bb3",
+                "sha256:bcd09f16bdf3d71ab7d0fab20e97242f09c63f4cea0943329521ab35a950f900"
+            ],
+            "index": "pypi",
+            "version": "==1.26.104"
+        },
+        "botocore": {
+            "hashes": [
+                "sha256:7e7a01cef10b1daa9cb01ec25a15e831e7359fc43d1b591359710f203c3620a8",
+                "sha256:932bfbf580a2ae53f471df4bfbebce531985ee27468cf7c37d7ccfb3cf8bc9e4"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.29.104"
         },
         "cattrs": {
             "hashes": [
@@ -427,11 +443,11 @@
         },
         "constructs": {
             "hashes": [
-                "sha256:5fa9f1b0d583aedc40581716d9aa0251fc59dc650a565bc7601bdf321627b28a",
-                "sha256:cfa28af41f85bf4cae9e3cb0c332e1a36497f36d5a5c5fd7f811df0b8bcca1de"
+                "sha256:7c87bc6844ed12d24b4ddc71221dac6722f8009d9388c8c69df2acf493120435",
+                "sha256:f2cb26f8fa0f7ba2268251503815444eeb5140dab91251a2dd53c9be30bcb3a5"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==10.1.290"
+            "version": "==10.1.298"
         },
         "exceptiongroup": {
             "hashes": [
@@ -448,6 +464,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==5.12.0"
+        },
+        "jmespath": {
+            "hashes": [
+                "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980",
+                "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.0.1"
         },
         "jsii": {
             "hashes": [
@@ -472,6 +496,19 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==2.8.2"
         },
+        "s3transfer": {
+            "hashes": [
+                "sha256:06176b74f3a15f61f1b4f25a1fc29a4429040b7647133a463da8fa5bd28d5ecd",
+                "sha256:2ed07d3866f523cc561bf4a00fc5535827981b117dd7876f036b0c1aca42c947"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.6.0"
+        },
+        "shared-infrastructure": {
+            "editable": true,
+            "git": "https://github.com/soccer-analysis/shared-infrastructure.git",
+            "ref": "20c32db90497fecf7662d85af50a19671033cdec"
+        },
         "six": {
             "hashes": [
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
@@ -495,6 +532,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.5.0"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305",
+                "sha256:aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "version": "==1.26.15"
         },
         "zipp": {
             "hashes": [
