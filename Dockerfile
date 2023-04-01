@@ -22,6 +22,7 @@ RUN mkdir -p "/opt/chromedriver/$chromedriver_version"
 RUN curl -Lo "/opt/chromedriver/$chromedriver_version/chromedriver_linux64.zip" "https://chromedriver.storage.googleapis.com/$chromedriver_version/chromedriver_linux64.zip"
 RUN unzip -q "/opt/chromedriver/$chromedriver_version/chromedriver_linux64.zip" -d "/usr/bin/"
 
+RUN yum install git
 RUN pip install --user --upgrade pip
 RUN pip install pipenv
 COPY Pipfile .
