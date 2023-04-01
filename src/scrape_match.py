@@ -17,7 +17,7 @@ def scrape_match(match_id: str) -> None:
 	driver = Driver()
 	bucket = Bucket()
 	key = 'raw/%s.json.gzip' % match_id
-	driver.get('https://whoscored.com/Matches/%s/Live' % match_id).wait()
+	driver.get('https://whoscored.com/Matches/%s/Live' % match_id).wait().remove_popups()
 	raw = driver.page_source \
 		.split('require.config.params["args"] = ')[-1] \
 		.split('</script>')[0] \

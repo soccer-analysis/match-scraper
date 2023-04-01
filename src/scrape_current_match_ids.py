@@ -13,7 +13,7 @@ def lambda_handler(event: Dict = None, context: Any = None) -> None:
 	queue = boto3.resource('sqs').Queue(MATCH_ID_QUEUE_URL)
 	driver = Driver()
 	for region, tournament in tqdm(region_tournaments):
-		driver.get('https://www.whoscored.com/Regions/%s/Tournaments/%s' % (region, tournament)).wait()
+		driver.get('https://www.whoscored.com/Regions/%s/Tournaments/%s' % (region, tournament)).wait().remove_popups()
 		enqueue_match_ids(driver, bucket, queue)
 
 

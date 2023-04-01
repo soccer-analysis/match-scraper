@@ -28,6 +28,14 @@ class Driver:
 		self.__driver.get(url)
 		return self
 
+	def remove_popups(self) -> 'Driver':
+		self.__driver.execute_script('''
+			for (const b of document.querySelectorAll("button")) {
+				if (b.className.includes("close")) b.click();
+			}
+		''')
+		return self.wait()
+
 	def find_element(self, xpath: str) -> WebElement:
 		return self.__driver.find_element(By.XPATH, xpath)
 
